@@ -573,12 +573,14 @@ nav ul li:nth-child(7):hover a{
     display: flex;
     padding-right: 12px;
     background-color:   palevioletred;
+    height: 450px;
 }
 .product-gallery-two-content-right{
     width: 20%;
 }
 .product-gallery-two-content-right img{
     width: 100%;
+    height: 100%;
 }
 .product-gallery-two-content-left{
     width: 80%;
@@ -629,19 +631,7 @@ nav ul li:nth-child(7):hover a{
 }
 /* -------------footer--------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-}
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
-.container{
-	max-width: 1170px;
-	margin:auto;
-}
+
 .row{
 	display: flex;
 	flex-wrap: wrap;
@@ -652,6 +642,7 @@ ul{
 .footer{
 	background-color: #24262b;
     padding: 80px 0px;
+    margin-top: 20px;
 }
 .footer-col{
    width: 25%;
